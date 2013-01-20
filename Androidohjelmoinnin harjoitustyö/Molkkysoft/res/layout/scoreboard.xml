@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/grassdark" android:orientation="vertical">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:layout_width="wrap_content" android:src="@drawable/arrowbutton" android:background="@android:color/transparent"  android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:id="@+id/back"></ImageButton>
+        <ImageView android:layout_width="wrap_content" android:id="@+id/imageView1" android:src="@drawable/score" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_marginLeft="125dip"></ImageView>
+    </LinearLayout>
+       <TableLayout android:layout_width="match_parent" android:layout_height="30dip" android:id="@+id/playertable" android:stretchColumns="*">
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/players">
+                <TextView android:text="" android:id="@+id/p1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            </TableRow>
+
+     	
+	    </TableLayout>
+    	<ScrollView android:layout_width="match_parent" android:id="@+id/scrollView1" android:layout_height="wrap_content">
+        	<TableLayout android:stretchColumns="*" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/scores">
+        	</TableLayout>
+    	</ScrollView>
+</LinearLayout>

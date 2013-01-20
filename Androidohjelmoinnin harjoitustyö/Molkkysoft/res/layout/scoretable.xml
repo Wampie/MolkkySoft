@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <TableLayout android:id="@+id/tableLayout2" android:layout_width="match_parent" android:layout_height="wrap_content" android:stretchColumns="*" xmlns:android="http://schemas.android.com/apk/res/android">
+        <TableRow android:id="@+id/players" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <TextView android:text="TextView" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="TextView" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="TextView" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </TableRow>
+     	
+    </TableLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/grass"
+    android:orientation="vertical" android:gravity="center_horizontal" xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#000000" android:text="TextView" android:textStyle="bold" android:textSize="58dip" android:id="@+id/current"></TextView>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1">
+            <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/last3" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="15dip" android:layout_marginLeft="10dip"></TextView>
+        <TextView android:id="@+id/lastThrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/NA" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="15dip" android:layout_marginLeft="10dip"></TextView>
+        <TextView android:id="@+id/secondLast" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/NA" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="15dip" android:layout_marginLeft="10dip"></TextView>
+        <TextView android:id="@+id/thirdLast" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/NA" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="15dip" android:layout_marginLeft="10dip"></TextView>
+        
+        </LinearLayout>
+        <TableLayout android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:stretchColumns="*" android:layout_width="wrap_content">
+            <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dip">
+                <ImageButton android:layout_height="wrap_content" android:src="@drawable/but1" android:background="@android:color/transparent" android:layout_width="wrap_content" android:id="@+id/button1"></ImageButton>
+                <ImageButton android:layout_width="wrap_content" android:src="@drawable/but2" android:background="@android:color/transparent" android:id="@+id/but2" android:layout_height="wrap_content"></ImageButton>
+                <ImageButton android:layout_height="wrap_content" android:src="@drawable/but3" android:background="@android:color/transparent" android:layout_width="wrap_content" android:id="@+id/but3"></ImageButton>
+                <ImageButton android:layout_height="wrap_content" android:src="@drawable/but4" android:background="@android:color/transparent" android:layout_width="wrap_content" android:id="@+id/but4"></ImageButton>
+                <ImageButton android:layout_height="wrap_content" android:src="@drawable/but5" android:background="@android:color/transparent" android:layout_width="wrap_content" android:id="@+id/but5"></ImageButton>
+                <ImageButton android:layout_width="wrap_content" android:src="@drawable/but6" android:background="@android:color/transparent" android:id="@+id/but6" android:layout_height="wrap_content"></ImageButton>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dip">
+                <ImageButton android:layout_height="wrap_content" android:src="@drawable/but7" android:background="@android:color/transparent" android:layout_width="wrap_content" android:id="@+id/but7"></ImageButton>
+                <ImageButton android:layout_width="wrap_content" android:src="@drawable/but8" android:background="@android:color/transparent" android:id="@+id/but8" android:layout_height="wrap_content"></ImageButton>
+                <ImageButton android:layout_height="wrap_content" android:src="@drawable/but9" android:background="@android:color/transparent" android:layout_width="wrap_content" android:id="@+id/but9"></ImageButton>
+                <ImageButton android:layout_height="wrap_content" android:src="@drawable/but10" android:background="@android:color/transparent" android:layout_width="wrap_content" android:id="@+id/but10"></ImageButton>
+                <ImageButton android:layout_height="wrap_content" android:src="@drawable/but11" android:background="@android:color/transparent" android:layout_width="wrap_content" android:id="@+id/but11"></ImageButton>
+                <ImageButton android:layout_width="wrap_content" android:src="@drawable/but12" android:background="@android:color/transparent" android:id="@+id/but12" android:layout_height="wrap_content"></ImageButton>
+            </TableRow>
+        </TableLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout2" android:gravity="center_horizontal" android:orientation="vertical">
+            <ImageButton android:src="@drawable/but0" android:background="@android:color/transparent" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/but0" android:layout_marginTop="10dip"></ImageButton>
+            <ImageButton android:src="@drawable/buttonscore" android:background="@android:color/transparent" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/scoreButton" android:layout_marginLeft="175dip" android:layout_marginRight="10dip"></ImageButton>
+        </LinearLayout>
+    </LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Title"></string>
+    <string name="welcome">Tervetuloa pelaamaan Mölkkyä!</string>
+    <string name="welcome2">Tervetuloa pelaamaan!</string>
+</resources>

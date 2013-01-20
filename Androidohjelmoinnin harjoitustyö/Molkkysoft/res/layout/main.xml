@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/grass"
+    android:gravity="center|center_horizontal" android:orientation="vertical">
+    <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:src="@drawable/logo" android:layout_width="wrap_content" android:layout_marginBottom="50dip"></ImageView>
+    <ImageButton android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:background="@android:color/transparent"
+    android:src="@drawable/newgamebutton" android:id="@+id/newgame"></ImageButton>
+    <ImageButton android:layout_height="wrap_content" 
+    android:background="@android:color/transparent"
+    android:layout_width="wrap_content" 
+    android:src="@drawable/closebutton" android:id="@+id/close" android:layout_marginTop="20dip" android:layout_marginBottom="5dip"></ImageButton>
+</LinearLayout>
